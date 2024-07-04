@@ -23,7 +23,7 @@ default = ["premade_pools"]
 premade_pools = []
 
 [dependencies]
-bevy = { version = "0.13", default-features = false, features = [
+bevy = { version = "0.14", default-features = false, features = [
 	"serialize",
 	"bevy_gilrs",
 ] }
@@ -35,7 +35,7 @@ thiserror = "1.0.37"
 derive_more = "0.99.17"
 
 [dev-dependencies]
-bevy = { version = "0.13", default-features = false, features = [
+bevy = { version = "0.14", default-features = false, features = [
 	"bevy_asset",
 	"bevy_sprite",
 	"bevy_text",
